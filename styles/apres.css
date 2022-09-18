@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    
+    font-family: 'Poppins', Arial, sans-serif;
+   
+}
+#bloc_page
+{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h1
+{
+
+    margin-bottom: 8px;
+    color: rgb(0, 51, 145);
+}
+article
+{
+    
+    width: 80%;
+    padding: 10px;
+    margin: 50px auto;
+    margin-bottom: 30px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,16%);
+}
+

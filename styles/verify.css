@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+    user-select: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #6C63FF;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.content .message{
+    
+    color: #17202A ;
+   
+}
+
+.content .email{
+    padding: 20px;
+    width: 60%;
+}
+.loginBtn , .homeBtn {
+    color: #6C63FF;
+}
+.error_msg{
+    text-align: center;
+    color: #F50057;
+    margin-bottom: 20px;
+}
+@media(max-width:630px){
+    .error_msg{
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1rem;
+
+    }
+    .message{
+        font-size: 0.6rem;
+    }
+}
